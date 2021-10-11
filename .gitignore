@@ -1,3 +1,10 @@
+output/*
+cookies.txt
+AtomicParsley.exe
+collection.csv
+ffmpeg.exe
+youtube-dl.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
