@@ -7,6 +7,10 @@ In order to use Accord's Library - YouTube-Archiver, you will need to download a
 -  [https://github.com/wez/atomicparsley/releases](AtomicParser)
 -  [https://ffmpeg.org/download.html](FFmpeg)
 
+You'll also need to create a `cookies.txt` file that will provide credentials for youtube-dl to use. This is optional, but it is the only way to archive aged-restricted videos. To generate this `cookies.txt` file, you can use the extension called [https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid](Get cookies.txt) by Rahul Shaw. Simply log in YouTube and click on the extension icon to extract the cookies.
+
+All the executables and the cookies.txt file needs to be included at the root of the repository.
+
 ## Usage
 Simply write down video UIDs in the `video-append-uid.txt` file (i.e. dQw4w9WgXcQ). One UID by line, do not include the rest of the URL.
 Run `script-list.py`
