@@ -12,9 +12,9 @@ You'll also need to create a `cookies.txt` file that will provide credentials fo
 All the executables and the cookies.txt file needs to be included at the root of the repository.
 
 ## Usage
-Simply write down video UIDs in the `video-append-uid.txt` file (i.e. dQw4w9WgXcQ). One UID by line, do not include the rest of the URL.
-Run `script-list.py`
-The output video is located (by default) in `output/[UID]`
+- Simply write down video UIDs in the `video-append-uid.txt` file (i.e. dQw4w9WgXcQ). One UID by line, do not include the rest of the URL.
+- Run `script-list.py`
+- The output video is located (by default) in `output/[UID]`
 
 ## Result
 The resulting archive is composed as follows:
